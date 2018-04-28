@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'RealmToDoApp_Example' do
+  pod 'RealmToDoApp', :path => '../'
+  pod 'RealmSwift'
+
+  target 'RealmToDoApp_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

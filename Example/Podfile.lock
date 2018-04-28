@@ -1,0 +1,29 @@
+PODS:
+  - Realm (3.5.0):
+    - Realm/Headers (= 3.5.0)
+  - Realm/Headers (3.5.0)
+  - RealmSwift (3.5.0):
+    - Realm (= 3.5.0)
+  - RealmToDoApp (0.1.0)
+
+DEPENDENCIES:
+  - RealmSwift
+  - RealmToDoApp (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  RealmToDoApp:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
+  RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
+  RealmToDoApp: 2151bbc7466ccfcdff6b59dbd92e35e07907fd1d
+
+PODFILE CHECKSUM: f15cd4e143ba4135b01c2b48df8f0fbcd4fc4fd4
+
+COCOAPODS: 1.5.0
